@@ -82,6 +82,10 @@ header {
   margin: 0;
 }
 
+nav{
+  z-index: 1000;
+}
+
 nav ul {
   display: flex;
   gap: 2rem;
