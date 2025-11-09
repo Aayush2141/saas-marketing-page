@@ -308,6 +308,240 @@ header .cta:hover {
 .how-card p {
   color: #5a4a3d;
 }
+.pricing {
+  padding: 6rem 50px;
+  background-color: #f5f2ed;
+}
 
+.pricing h2 {
+  text-align: center;
+  color: #1f1610;
+  margin-bottom: 1rem;
+}
+
+.price-txt {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5a4a3d;
+  margin-bottom: 3rem;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.price-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(200, 180, 160, 0.3);
+  border-radius: 16px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(234, 88, 12, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.price-card.highlight {
+  border: 2px solid rgba(234, 88, 12, 0.6);
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 20px rgba(234, 88, 12, 0.2);
+}
+
+.price-card.highlight:hover {
+  transform:  translateY(-5px);
+  border-color: rgba(234, 88, 12, 0.8);
+  box-shadow: 0 6px 24px rgba(234, 88, 12, 0.3);
+}
+
+.price-card h3 {
+  color: #ea580c;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f1610;
+  margin-bottom: 2rem;
+}
+
+.price-card ul {
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.price-card ul li {
+  padding: 0.75rem 0;
+  color: #5a4a3d;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(200, 180, 160, 0.3);
+}
+
+/* .price-card ul li:last-child {
+  border-bottom: none;
+} */
+
+.price-card button {
+  padding: 1rem 2rem;
+  background-color: #ea580c;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: auto;
+  transition:transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(234, 88, 12, 0.2);
+}
+
+.price-card button:hover {
+  background-color: #c2410c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+.price-card.highlight button {
+  background-color: #f97316;
+  box-shadow: 0 3px 10px rgba(249, 115, 22, 0.3);
+}
+
+.price-card.highlight button:hover {
+  background-color: #ea580c;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(249, 115, 22, 0.4);
+}
+.cta {
+  padding: 6rem 5%;
+  background-color: rgba(255, 252, 248, 0.6);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.cta h2 {
+  color: #1f1610;
+  margin-bottom: 1.5rem;
+}
+
+.master-txt {
+  font-size: 1.2rem;
+  color: #5a4a3d;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.start-trial,
+.learn-more {
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+.start-trial {
+  background-color: #ea580c;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+.start-trial:hover {
+  background-color: #c2410c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(234, 88, 12, 0.4);
+}
+
+.learn-more {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(234, 88, 12, 0.4);
+  color: #2d1f13;
+  transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(234, 88, 12, 0.6);
+  transform: translateY(-2px);
+}
+
+.about {
+  padding: 6rem 5%;
+  background-color: #faf8f5;
+  text-align: center;
+}
+
+.about h2 {
+  color: #1f1610;
+  margin-bottom: 2rem;
+}
+
+.abt-flo-detail,
+.more-flo-detail {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.1rem;
+  color: #5a4a3d;
+  line-height: 1.8;
+}
+
+footer {
+  padding: 3rem 5%;
+  background-color: #f5f2ed;
+  border-top: 1px solid rgba(200, 180, 160, 0.3);
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-nav a {
+  color: #5a4a3d;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #ea580c;
+}
+
+.copyright-txt {
+  color: #8b7a6d;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+  color: #8b7a6d;
+  font-size: 0.85rem;
+}
 
 
