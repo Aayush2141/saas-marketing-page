@@ -10,7 +10,7 @@ FlowOS is a productivity platform designed to help students, creators, and profe
 ```
 flowos/
 ├── index.html          # Main HTML file
-├── style.css           # Stylesheet with glassmorphism effects
+├── style.css           # CSS Styling file
 └── README.md           # Project documentation
 ```
 
@@ -21,13 +21,13 @@ flowos/
 3. **Features**: Three key features of FlowOS
 4. **How It Works**: Four-step process explanation
 5. **Pricing**: Three pricing tiers (Starter, Pro, Ultimate)
-6. **Sign up**: Asking users to sign-ups
+6. **Sign up**: Asking users to sign-up
 7. **About**: Information about FlowOS
 8. **Footer**: Links and information
 
 ## Design Elements
 
-- **Color Scheme**: Dark background with dark blue accents
-- **Typography**: Arial font family for simplicity
-- **Effects**: Glass effect with background blur
+- **Color Scheme**: Combination of light white Background and Orange font-colour.
+- **Typography**: poppins and Arial font family for simplicity
+- **Effects**: Minor Transistions and Transformations
 - **Layout**: CSS Grid for feature cards and pricing cards
